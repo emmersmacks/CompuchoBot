@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "methods": [
+        "POST",
+        "GET"
+      ],
+      "dest": "/api/webhook.js"
+    },
+    {
+      "src": "/webhook",
+      "methods": [
+        "POST",
+        "GET"
+      ],
+      "dest": "/api/webhook.js"
+    },
+    {
+      "src": "/api/webhook",
+      "methods": [
+        "POST",
+        "GET"
+      ],
+      "dest": "/api/webhook.js"
+    }
+  ]
+}
